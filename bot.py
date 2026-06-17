@@ -8,7 +8,7 @@ from telegram.ext import (
 
 logging.basicConfig(level=logging.INFO)
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN")  # вставь токен в Railway как переменную BOT_TOKEN
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8930787917:AAGo5QSTThLWpMW0kT5KIKd4StIwOOQPSjE")
 ADMIN_USERNAME = "soloveyco"
 
 NAME, LEVEL, SOURCE = range(3)
